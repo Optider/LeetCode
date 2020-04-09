@@ -1,3 +1,3 @@
 # LeetCode
 
-It contains porblems from LeetCode solved using Python 3.
+It contains problems from LeetCode solved using Python 3.
