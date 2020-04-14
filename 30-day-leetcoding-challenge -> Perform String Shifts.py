@@ -16,3 +16,15 @@ class Solution:
             return s[count:] + s[:count]
         else :
             return s
+        
+# ALTER using single mod
+class Solution:
+    def stringRotation(self, s: str, rotation: List[List[int]]) -> str:
+        left = 0
+        for d, a in rotation:
+            if d:
+                left -= a
+            else:
+                left += a
+        left %= len(s)
+        return s[left:] + s[:left]
