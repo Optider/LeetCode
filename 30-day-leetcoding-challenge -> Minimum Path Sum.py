@@ -7,7 +7,7 @@ class Solution:
         except :
             return 0
         
-        # THIS method is alot FASTER ###########################
+        # THIS method is alot FASTER ##########################
 
         for i in range(1, row) :
             grid[i][0] += grid[i-1][0]
